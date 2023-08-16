@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function StartButton({ callback }) {
-  return <div></div>;
+  return <div>Start Game</div>;
 }
 
 export default StartButton;
