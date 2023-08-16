@@ -80,4 +80,10 @@ Z:{
     ]
 },
 }
+export const randomTeromini=()=>{ // SHUFFLE FOR RANDOM TETROMINO
+    const tetrominos="IJLOSTZ";
+    const randomTetromino=
+    tetrominos[Math.floor(Math.random()*tetrominos.lenght)];
+    return Tetrominos[randomTetromino]
+}
 
