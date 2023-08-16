@@ -1,9 +1,10 @@
 import { useState } from "react";
 
-import "./App.css";
+import { StyledCell } from "./styles/StyledCell";
+import {TETROMINOS} from "../tetrominos"
 
-function Cell() {
-  return <div></div>;
+const Cell({type})=> {
+   <StyledCell type={'L'} color={TETROMINOS[type].color}>"L"</StyledCell>
 }
 
 export default Cell;
