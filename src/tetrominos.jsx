@@ -57,7 +57,7 @@ export const Tetrominos = {
     color: "227,78,78",
   },
 };
-export const randomTeromini = () => {
+export const randomTetromino = () => {
   // SHUFFLE FOR RANDOM TETROMINO
   const tetrominos = "IJLOSTZ";
   const randomTetromino =
