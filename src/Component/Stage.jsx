@@ -1,10 +1,10 @@
-import Cell from "./Cell";
 import React from "react";
+import Cell from "./Cell";
 import { StyledStage } from "./styles/StyledStage";
 
 const Stage = ({ stage }) => {
   return (
-    <StyledStage width={stage[0].lenght} height={stage.lenght}>
+    <StyledStage width={stage[0].length} height={stage.length}>
       {stage.map(
         (
           row // map the stage prop passed in to create cell
