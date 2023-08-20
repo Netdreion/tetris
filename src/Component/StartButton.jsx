@@ -1,8 +1,8 @@
 import { useState } from "react";
-import {StyledStarButton}
+import { StyledStartButton } from "../styles/StyledStarButton";
 
 function StartButton({ callback }) {
-  return <div>Start Game</div>;
+  return <StyledStartButton>Start Game</StyledStartButton>;
 }
 
 export default StartButton;
